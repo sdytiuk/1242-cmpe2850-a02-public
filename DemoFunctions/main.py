@@ -9,8 +9,7 @@ def fook(left,right): #this returns a tuple
 
 def goo(*args):
     print(args)
-    for i in (x for x in args if x % 2 == 0):
-        print(i)
+    print("Generator for herb: ",(x for x in args if x % 2 == 0))
 
 def hoo(**kwargs):
     print(kwargs)
